@@ -1,0 +1,119 @@
+/* this is for google fonts */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+/* this is a universal selector for all text on the html document */
+* {
+    font-family: "DM Sans", sans-serif;
+}
+
+
+/* this is for custom fonts */
+/* @font-face {
+    font-family: "myhtml-font";
+    src: url("./fonts/MonumentExtended-Ultrabold.otf");
+} */
+
+body {
+   
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+
+.site-nav ul {
+    display: flex;
+}
+
+.site-nav ul li a {
+    color: #1e0e62;
+    text-decoration: none;
+    /* margin-top: 10px;
+    margin-bottom: 20px;
+    margin-right: 20px */
+
+    margin: 10px 20px;
+    line-height: 2.2;
+}
+
+.site-nav ul li {
+    list-style: none;
+}
+
+.btn {
+    outline: none;
+    box-shadow: none;
+    background: transparent;
+    color: #fff;
+    border: 1px solid rgb(146, 142, 142);
+    padding: 10px 30px;
+    border-radius: 20px;
+}
+
+.btn:hover {
+    background: red;
+    cursor: pointer;
+}
+
+.logo {
+    margin-top: 22px;
+}
+
+.hero-pat{
+    margin: 45px 30px;
+}
+
+.hero-hed h2 {
+text-align: center;
+margin-bottom: 35px;
+}
+
+ .hero-hed button{
+    background: #40e0d0;
+    color:#ffffff;
+   border:1px solid;
+   border-radius :30px;
+   padding: 10px;
+   margin-left: 600px;
+ }
+
+  
+
+
+.man{
+ position: relative;
+ left: 200px;
+ margin-top: 40px;
+ }
+
+
+
+.flexer{
+display:flex;
+justify-content: space-between;
+}
+
+.hero-cont1.cont2.cont3{
+    color:#1e0e62;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
